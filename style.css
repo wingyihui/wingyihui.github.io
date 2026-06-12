@@ -130,9 +130,9 @@ main {
   grid-template-columns: repeat(2, minmax(260px, 1fr));
   gap: 24px 90px;
   width: min(980px, 88vw);
-  margin-top: 86px;
-  padding-top: 38px;
-  border-top: 1px solid var(--line);
+  margin-top: 34px;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .quickIndex div {
