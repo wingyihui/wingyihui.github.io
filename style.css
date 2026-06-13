@@ -49,7 +49,7 @@ a {
 .siteName {
   font-size: clamp(18px, 2vw, 24px);
   letter-spacing: 0.01em;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navLinks {
@@ -114,9 +114,20 @@ main {
   height: auto;
 }
 
+.portfolioNameUnderTitle {
+  width: min(760px, 78vw);
+  max-width: 100%;
+  margin: 24px 0 0;
+  text-align: center;
+  color: var(--softInk);
+  font-size: clamp(14px, 1.3vw, 18px);
+  font-weight: 400;
+  letter-spacing: 0.22em;
+}
+
 .heroIntro {
   max-width: 560px;
-  margin: 42px 0 0;
+  margin: 58px 0 0;
   color: var(--softInk);
   font-size: clamp(18px, 2vw, 24px);
   line-height: 1.7;
@@ -125,7 +136,7 @@ main {
 .bambooDividerWrap {
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  margin-top: 48px;
+  margin-top: -80px;
   overflow: visible;
 }
 
@@ -417,12 +428,16 @@ main {
     width: min(680px, 92vw);
   }
 
+  .portfolioNameUnderTitle {
+    width: min(680px, 92vw);
+  }
+
   .heroIntro {
-    margin-top: 32px;
+    margin-top: 46px;
   }
 
   .bambooDividerWrap {
-    margin-top: 26px;
+    margin-top: -28px;
   }
 
   .quickIndex,
@@ -466,13 +481,19 @@ main {
     width: 100%;
   }
 
+  .portfolioNameUnderTitle {
+    width: 100%;
+    margin-top: 18px;
+  }
+
   .heroIntro {
+    margin-top: 38px;
     font-size: 18px;
     line-height: 1.65;
   }
 
   .bambooDividerWrap {
-    margin-top: 18px;
+    margin-top: -14px;
   }
 
   .quickIndex div {
@@ -494,4 +515,5 @@ main {
     flex-direction: column;
     gap: 12px;
   }
+}
 }
